@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro de Usuario - FastLoco</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="../Views/login.html">Iniciar Sesión</a></li>
+                <li><a href="../Views/index.html">Inicio</a></li>
+                <li><a href="../Views/order.html">Ordenar</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h1>Registro de Usuario</h1>
+            <form>
+                <label for="username">Ingrese su nombre de usuario *</label>
+                <input type="text" id="username" name="username" required>
+                
+                <label for="password">Ingrese su contraseña *</label>
+                <input type="password" id="password" name="password" required>
+                
+                <label for="confirm-password">Vuelva a ingresar su contraseña *</label>
+                <input type="password" id="confirm-password" name="confirm-password" required>
+                
+                <label for="email">Ingrese su correo electrónico *</label>
+                <input type="email" id="email" name="email" required>
+                
+                <div>
+                    <input type="checkbox" id="recaptcha" required>
+                    <label for="recaptcha">No soy un robot</label>
+                </div>
+                
+                <button type="submit">Registrarse</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 FastLoco. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
